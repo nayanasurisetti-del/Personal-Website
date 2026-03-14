@@ -98,3 +98,13 @@
 .github-button:hover {
   background-color: #a8876b;  
 }
+.github-button:hover {
+  background-color: #a8876b;  
+}
+#about {
+  margin-left: 60px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
