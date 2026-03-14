@@ -32,3 +32,69 @@
   display: none;
   color: #007bff;
 }
+
+.content-container {
+  min-height: 100vh;
+}
+ .hero-beige {
+    background-color: #eedecf !important;
+    height: 100vh;  /* use min-height instead of height */
+  }
+
+  .hero-beige .banner-table {
+    height: 100%;
+    justify-content: center;
+  }
+  .hero-name {
+  font-size: 4rem;         
+  font-weight: 700;        
+  color: #3d3d3d;           
+  margin: 0;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  }
+
+  .hero-tagline {
+  font-size: 1.4rem;       
+  font-weight: 600;         
+  color: #5a4f44;          
+  margin-top: 12px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  }
+  .hero-name, .hero-tagline {
+  font-family: 'Dosis', serif;
+}
+.menu {
+  padding: 20px 40px;                  
+  background-color: #f4efe8;           
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+}
+
+.menu-items a {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #3d3d3d !important;
+  margin: 0 30px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu-items a:hover {
+  color: #8c6e58 !important;
+}
+.github-button {
+  display: inline-block;
+  background-color: #8c6e58;   
+  color: #fff;                 
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.github-button:hover {
+  background-color: #a8876b;  
+}
